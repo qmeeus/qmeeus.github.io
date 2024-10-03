@@ -1,0 +1,15 @@
+
+@phdthesis{Meeus2024Thesis,
+    title = {{From Speech to Semantics: Adapting Pretrained Transformers for Low Resource Spoken Language Understanding}},
+    author = {Meeus, Quentin and Van hamme, Hugo and Moens, Marie-Francine},
+    language = {eng},
+    abstract = {This thesis investigates Spoken Language Understanding (SLU) within low-resource scenarios, focusing on enhancing efficiency and adaptability. We introduce a novel approach for learning expressive speech representations using Bidirectional Transformers with masked language modeling. This approach allows us to train lightweight downstream SLU models effectively, even with limited labeled data. We also explore multitask learning, combining SLU tasks with speech recognition to further boost performance in low-resource settings. Our experiments with intent recognition and sentiment analysis demonstrate the effectiveness of these methods on Dutch and English datasets.
+    Building upon these findings, we adapt a pretrained speech-to-text model (Whisper) for more complex SLU tasks like slot filling and Spoken Named Entity Recognition (Spoken NER). We explore techniques such as task-specific decoder modules, parameter freezing, and embedding pruning to maintain low data and computational requirements. Our multilingual Spoken NER model, trained on the MSNER dataset we created, showcases the benefits of shared representations across languages and tackles the issue of catastrophic forgetting through strategies like embedding reset and experience replay.
+    To address the scarcity of labeled data for multilingual SLU, we investigate the use of text-based NLU models to generate silver-quality annotations. We analyze the MSNER dataset, highlighting the potential of this approach while cautioning against potential biases. Finally, we explore the advantages of multilingual Spoken NER models over monolingual counterparts, demonstrating improved performance and generalization, particularly in low-resource scenarios.
+    Overall, this thesis contributes to the development of efficient and adaptable SLU systems for low-resource contexts. Our work underscores the potential of bidirectional attention, multitask learning, pretrained model adaptation, and multilingual approaches in advancing the field of SLU. We also highlight the challenges and potential solutions for catastrophic forgetting in multilingual settings.},
+    year = 2024,
+    month = {September},
+    note = {Available at \url{https://lirias.kuleuven.be/retrieve/774709}},
+    school = {KU Leuven},
+    grade = {PhD in Electrical Engineering},
+    type = {PhD thesis}}

@@ -55,6 +55,9 @@
     margin-top: 1em;
     border-bottom: none;
   }
+  p {
+    text-align: justify;
+  }
 }
 
 .archive__item-excerpt {
@@ -63,6 +66,7 @@
 
   & + p {
     text-indent: 0;
+    text-align: justify;
   }
 }
 
