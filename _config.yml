@@ -27,8 +27,8 @@ author:
   bio              : "Machine Learning Engineer, expert in Deep Learning, Speech Processing and Natural Language Understanding"
   location         : "Brussels, Belgium"
   employer         : "KU Leuven"
-  uri              : # URL
-  email            : "none@example.org" 
+  uri              : https://qmeeus.github.io
+  email            : 
 
   # Academic websites
   arxiv            : "https://arxiv.org/search/cs?searchtype=author&query=Meeus,+Q" # URL - Update with the correct link to your profile
@@ -218,7 +218,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
     output: true
@@ -297,18 +297,14 @@ timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
-  - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-sitemap
   - jemoji
 
 # Mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-sitemap
   - jemoji
 
 
