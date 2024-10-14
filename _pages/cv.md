@@ -25,15 +25,15 @@ redirect_from:
 
 - 2018: Intership as Machine Learning Researcher
   - Euranova
-  - Duties included: Semi-supervised learning for Computer Vision with Generative Adversarial Networks
+  - During my internship, I reproduced a semi-supervised GAN for image classification and generation. This can be used for semi-automated labeling of images.
 
 - 2016-2017: Business Consultant
   - DFakto
-  - Duties included: Support for Project Management Office in a large financial institution.
+  - My duties included data analysis, visual reporting and support of the Project Management Office for a large financial institution.
 
 - 2015-2016: Business Developer
   - Partena Ziekenfonds
-  - Duties included: Development and implementation of IT solutions for healthcare
+  - Development and implementation of IT solutions for healthcare and an online platform for non-urgent medical transport booking.
 
 ## Skills
 - Artificial Intelligence: Design, training and evaluation of Deep Neural Networks
